@@ -1,5 +1,6 @@
 /*Customer and Address Relationship Below*/
-
+/*Schema creation*/
+create schema orderprocess;
 /* Customer Table*/
 CREATE TABLE orderprocess.Customer(
 Customer_ID INT PRIMARY KEY AUTO_INCREMENT,
