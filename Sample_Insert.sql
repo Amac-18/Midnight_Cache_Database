@@ -104,11 +104,11 @@ select*from orderprocess.supplier_platform;
 
 /*Order_ID Inserts*/
 
-insert into orderprocess.orders(Customer_ID, Address_ID, Order_Date,Total_Amount)
+insert into orderprocess.orders(Customer_ID, Address_ID, Order_Date)
 values
-(1,1, '2026-03-11',50.00),
-(2,2, '2026-05-11',60.00),
-(3,2, '2025-04-12',70.00);
+(1,1, '2026-03-11'),
+(2,2, '2026-05-11'),
+(3,2, '2025-04-12');
 
 select * from orderprocess.orders;
 
